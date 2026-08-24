@@ -6,7 +6,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 logging.basicConfig(level=logging.INFO)
 
 # جلب التوكين من المتغيرات الأمنية في Koyeb
-TOKEN = os.getenv("8868088936:AAH56-pwHiRQ8f1u3jWRDhsd0PgX4dt7BXI")
+TOKEN = os.getenv("BOT_TOKEN")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("أهلاً بك! البوت يعمل الآن على Koyeb مجاناً 24/7 🚀")
